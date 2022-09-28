@@ -1,0 +1,54 @@
+.card-style {
+  transition: transform 500ms;
+  height: 27rem;
+  margin-top: 30%;
+}
+.card-style:hover {
+  transform: scale(1.09);
+}
+.btn {
+  margin-bottom: 20px;
+}
+.select {
+  border: 1px solid red;
+  color: black;
+}
+body {
+  background-color: rgb(247, 232, 232);
+}
+.center {
+  text-align: center;
+  align-items: center;
+  padding-left: 25%;
+}
+.cart {
+  margin-top: 3%;
+}
+.cart-item {
+  border: 2px solid rgb(46, 44, 44);
+  background-color: rgb(233, 233, 233);
+  padding: 20px;
+}
+.cart-text {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.item-row {
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+}
+.home-btn {
+  margin-left: 90%;
+  width: 50px;
+  border: 1px solid green;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: green;
+}
+
+.del-icon:hover {
+  color: red;
+}
